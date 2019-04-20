@@ -5,7 +5,7 @@ array=(2..integer_number - 1).to_a
 if integer_number <= 0
   return false 
 elsif integer_number == 1 || integer_number == 2 
-  return false  
+  return true  
 else 
 array.all? {|number| integer_number % number != 0 }
   return true 
