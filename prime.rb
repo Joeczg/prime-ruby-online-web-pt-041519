@@ -1,5 +1,5 @@
 # Add  code here!
-prime?(integer_number)
+def prime?(integer_number)
 array=[]
 array=(2..integer_number - 1).to_a
 if integer_number == 1 || integer_number == 2 
