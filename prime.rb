@@ -1,4 +1,5 @@
 # Add  code here!
 prime?(integer)
 array=[]
-array=(1..integer).to_a
+array=(1...integer).to_a
+array.any? {|number| ineger % 
