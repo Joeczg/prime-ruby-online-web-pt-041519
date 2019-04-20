@@ -7,7 +7,7 @@ if integer_number <= 1
 elsif  integer_number == 2 
   return true  
 else 
-array.all? {|number| integer_number % number != 0 }
+array.all? {|number| integer_number % number == 0 }
   return true 
 
 
