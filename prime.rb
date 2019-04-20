@@ -6,3 +6,4 @@ if integer == 1 || integer == 2
   return true 
 else 
 array.all? {|number| integer % number != 0 }
+end 
