@@ -7,3 +7,4 @@ if integer_number == 1 || integer_number == 2
 else 
 array.all? {|number| integer_number % number != 0 }
 end 
+end
